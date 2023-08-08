@@ -1,0 +1,211 @@
+<div class="container-fluid g-0">
+  <app-header (sideNavToggled)="sideNavStatus= $event;"> 
+  </app-header>
+
+  <main>
+    
+    <app-side-nav [sideNavStatus]="sideNavStatus" [ngClass]=
+    "{'app-side-nav-open':sideNavStatus}">
+
+    </app-side-nav>
+  
+  <div class ="display-area p-3 "[ngClass] =
+ " {'display-area-shrink': sideNavStatus}">
+
+
+   <p class="fs-4 fw-bold fst-italic"> Document Guide : </p>
+   <p class="fs-6 fw-bold fst-italic">
+    This document is intended and design as a complete guide for using CloudnSure Project .
+    This document is specially designed for non-specialists, specialists may find the document a useful point of reference.
+    By reading this guide, you will learn how to use CloudnSure through the elements of the graphical user interface and
+     what's behind some of the advanced features that are not always obvious at first sight. It will hopefully guide you
+     around some common problems that frequently appear for users of CloudnSure. 
+    This document is an effort by the CloudnSure  team to improve the usability of this project.
+     We hope that you find it useful.</p>
+
+   
+
+    <div class="text-center">
+      <img src= "../assets/images/11.png" width=" 300px" height="200px" class ="rounded" >
+    </div>
+         
+      <ul><p class="fs-6 fw-bold fst-italic"> Login, Log Out & Changing your Password 
+      </p></ul>
+      <p class="fs-7 fw-bold fst-italic"><li> Open your browser and enter the URL for CloudnSure </li> </p>
+       <p class="fs-7 fw-bold fst-italic"><li>Enter the name and password .</li></p>
+       <p class="fs-7 fw-bold fst-italic"><li> Click on LOGIN</li></p>
+  
+       <div class="text-center">
+        <img src= "../assets/images/1.1.png" width=" 300px" height="150px" class ="rounded" ></div>
+
+
+       <p class="fs-6 fw-bold fst-italic">  After logging it open  for next Step . </p>
+  
+     <ul> <p class="fs-7 fw-bold fst-italic"> </p></ul>
+      <p class="fs-7 fw-bold fst-italic"><li>After logging you have access for  next action.</li></p>
+      <p class="fs-7 fw-bold fst-italic"><li>If you don't have account before for LOGIN to CloudnSure </li></p>
+      <p class="fs-7 fw-bold fst-italic"><li>Click on create account (It create new account and user can login later)</li></p>
+
+      <div class="text-center">
+        <img src= "../assets/images/2.png" width=" 200px" height="100px" class ="rounded" ></div>
+
+     <ul><p class="fs-6 fw-bold fst-italic">Forgot Password </p></ul>
+  
+       <p class="fs-7 fw-bold fst-italic"><li>Your password can be changed at anytime whenever you forget the password.</li></p>
+  
+       <p class="fs-7 fw-bold fst-italic"><li>Click on the “Forgot Password” link at the bottom of the hand side as shown in the figure.</li></p>
+  
+       <div class="text-center">
+        <img src= "../assets/images/3.png" width=" 200px" height="100px" class ="rounded" >
+       </div>
+     
+       <ul><p class="fs-6 fw-bold fst-italic"> To change your password after Forgot Password :</p></ul>
+  
+         <p class="fs-7 fw-bold fst-italic"><li>Click “Forgot password”</li></p>
+        <p class="fs-7 fw-bold fst-italic"><li>Enter your “Email”  ex:email@company.com</li></p>
+         <p class="fs-7 fw-bold fst-italic"><li>Then Click on “SEND ME ACCESS LINK”</li></p>
+        <p class="fs-7 fw-bold fst-italic"><li>Go for further steps.</li></p>
+
+ <div class="text-center">
+        <img src= "../assets/images/forgot pass.png" width=" 300px" height="150px" class ="rounded" >
+ </div>
+        
+
+
+         <p class="fs-6 fw-bold fst-italic"> Home </p>
+
+        <ul> <p class="fs-6 fw-bold fst-italic">After login, the Home Page should be displayed.</p></ul>
+
+        <p class="fs-7 fw-bold fst-italic"><li>Tooltip should be available.  </li></p>
+        <p class="fs-7 fw-bold fst-italic"><li>Autosearch should be available.</li></p>
+
+      
+         <div class="text-center">
+          <img src= "../assets/images/t1.png" width=" 500px" height="300px" class ="rounded" >
+         </div>
+
+
+<div> <ul><p class="fs-6 fw-bold fst-italic">  My Projects ,Status ,Tasks ,Issues Card :-   </p></ul></div>
+<p class="fs-7 fw-bold fst-italic">
+    My Project :- </p>
+<p class="fs-7 fw-bold fst-italic">Till  now how many project done , mentioned and record of  project  here 86 project  currently recorded.</p>
+  <p class="fs-7 fw-bold fst-italic">Share with me :Project share record is 4 or value of this project share will be  change according to how many project shared.</p>
+
+<ul><p class="fs-7 fw-bold fst-italic">Status :- </p> </ul>
+  <p class="fs-7 fw-bold fst-italic">Shows the project status.Status before deployment of product so project is always work  in process and it   help  to update team or up to date project status.</p>
+
+<ul><p class="fs-7 fw-bold fst-italic">Task : -   </p></ul>
+  <p class="fs-7 fw-bold fst-italic">Current ,past task record. Task  contain project, repository of project and wireframe.</p>
+
+<ol type ="1"><p class="fs-7 fw-bold fst-italic">Issues Card :- </p></ol>
+  <p class="fs-7 fw-bold fst-italic"><li>Tooltip should be available on Graph values which contains basic information about the   value.</li></p>
+    <p class="fs-7 fw-bold fst-italic"><li>Correct values displayed with respect to its Pivot table (values of the graph x-axis & y-axis matches its table values)</li></p>
+
+
+
+<ul type = "rounded"><p class="fs-6 fw-bold fst-italic">Username—-> About </p></ul>
+
+  <p class="fs-7 fw-bold fst-italic"><li>Login details must appear on the login icon on the right with the username.</li></p>
+    <p class="fs-7 fw-bold fst-italic"><li>Click on Username—-> About</li></p>
+  
+    <div class="text-center">
+      <img src= "../assets/images/t1.png" width=" 550px" height="300px" class ="rounded" >
+     </div>
+  
+
+
+<ul><p class="fs-6 fw-bold fst-italic">About  US:- </p></ul>
+  <p class="fs-7 fw-bold fst-italic"><li>Click on “About Us” steps :</li></p>
+    <p class="fs-7 fw-bold fst-italic"><li>Home —> About Us</li></p>
+      <p class="fs-7 fw-bold fst-italic"><li>It display all information about administrative .</li></p>
+
+      <div class="text-center">
+        <img src= "../assets/images/t2.png" width=" 450px" height="200px" class ="rounded" >
+       </div>
+    
+<ul><p class="fs-6 fw-bold fst-italic">Profile Setting :- </p></ul>
+  <p class="fs-7 fw-bold fst-italic"><li>Profile setting display all information about profile .</li></p>
+    <p class="fs-7 fw-bold fst-italic"><li>Profile setting allow to edit  and update  all information about profile</li></p>
+
+
+    <p class="fs-6 fw-bold fst-italic">Provide functionality  </p>
+
+
+    <ul><p class="fs-7 fw-bold fst-italic">Profile Photo :- </p></ul>
+  <p class="fs-7 fw-bold fst-italic">     1.  User can add and upload  profile photo as per  user requirement  by clicking “UPLOAD YOUR PHOTO” after that select photo from your device and upload as profile photo .</p>
+    <p class="fs-7 fw-bold fst-italic">   2.   User can cropimage by clicking “CROPIMAGE” .</p>
+
+           <ul><p class="fs-7 fw-bold fst-italic">Your Full Name :- </p></ul>
+            <p class="fs-7 fw-bold fst-italic"><li>Enter your full name for profile updation process.</li></p>
+
+       <ul> <p class="fs-7 fw-bold fst-italic">Pronounce:-> </p> </ul>
+        <p class="fs-7 fw-bold fst-italic">Enter Pronounce.</p>
+
+          <ul><p class="fs-7 fw-bold fst-italic">Role:- </p></ul>
+          <p class="fs-7 fw-bold fst-italic"> Enter Role for project.</p>
+
+         <ul><p class="fs-7 fw-bold fst-italic">Department or team :- </p></ul>
+          <p class="fs-7 fw-bold fst-italic">Enter your Department or team name and descrition .</p>
+
+           <ul><p class="fs-7 fw-bold fst-italic">Email :- </p></ul>
+            <p class="fs-7 fw-bold fst-italic"> Enter your Email.</p>
+
+         <ul><p class="fs-7 fw-bold fst-italic">About Me :-</p></ul>
+          <p class="fs-7 fw-bold fst-italic"><li> Describe Yourself in about us textbox .You can add skill and many more.</li></p>
+            <p class="fs-7 fw-bold fst-italic"><li>Click on “Update” then your new profile data will be added successfully and profile Updated asper user requirement .</li></p>
+            <div class="text-center">
+              <img src= "../assets/images/t3.png" width=" 450px" height="200px" class ="rounded" >
+             </div>
+          
+
+<ol type ="1"><p class="fs-7 fw-bold fst-italic">My Workplace :-</p></ol>
+
+  <p class="fs-7 fw-bold fst-italic"><li>Home—> username dropdown arrow— >workplace </li></p>
+  <p class="fs-7 fw-bold fst-italic"><li>This module contain all information about  organization and workspaces .</li></p>
+  <p class="fs-7 fw-bold fst-italic"><li>There is three  option you have Users, guest and Terms as shown in figure .</li></p>
+    <p class="fs-7 fw-bold fst-italic"><li>First option is Users which contain all data about user where can be added user by clicking  “Add Users”</li></p>
+
+    <div class="text-center">
+      <img src= "../assets/images/t4.png" width=" 400px" height="200px" class ="rounded" >
+     </div>
+  
+
+<ul><p class="fs-6 fw-bold fst-italic">Second is guest  :-</p></ul>
+<div>
+  <p class="fs-7 fw-bold fst-italic"><li>click  on “Guest”.</li></p>
+    <p class="fs-7 fw-bold fst-italic"><li>It opened data about guest field.</li></p>
+  </div>
+
+    <div class="text-center">
+      <img src= "../assets/images/t5.png" width=" 500px" height="200px" class ="rounded" >
+     </div>
+  
+
+
+
+<ol type="1"><p class="fs-6 fw-bold fst-italic">Third is terms  :-</p></ol>
+  <p class="fs-7 fw-bold fst-italic"><li>click  on “Terms”.</li></p>
+    <p class="fs-7 fw-bold fst-italic"><li>It opened data about terms field and display as shown in figure.</li></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+  
+
+</div>
+  
+  
+  </main>
+</div>
+
+
